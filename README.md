@@ -30,6 +30,8 @@ The singleton is perfect as a GameManager. It manages the "best time score," han
 
 Player character uses Mixamo's Kachujin G. Rosales' model. For level prototyping I uses Unity's basic 3D primitives.
 
+Marcus.
+
 Chart formatting used to make my chart from Medium (https://medium.com/@Code_With_K/understanding-the-singleton-pattern-in-c-and-unity-f5abd1ab80bb):
 
 <img width="583" height="429" alt="image" src="https://github.com/user-attachments/assets/673f11d1-7a94-4609-a5f7-948f6f1af59e" />
