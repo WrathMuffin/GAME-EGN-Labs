@@ -6,11 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tester level 1.unity
+    path: Assets/Scenes/Lab 1/Tester level 1.unity
     guid: b413b1d2915b4c54c8da3600b6db84db
   - enabled: 1
-    path: Assets/Scenes/Tester level 2.unity
+    path: Assets/Scenes/Lab 1/Tester level 2.unity
     guid: 6e7551773e6dcfe4b94ec97c71a8739e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_UseUCBPForAssetBundles: 0

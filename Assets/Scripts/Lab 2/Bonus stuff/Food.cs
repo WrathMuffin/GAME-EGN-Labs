@@ -1,0 +1,49 @@
+using UnityEngine;
+
+public abstract class Food : MonoBehaviour, IBonusItems
+{
+    [SerializeField] protected int bonusScore;
+    [SerializeField] protected float despawnTime;
+    //[SerializeField] protected float spawnTime;
+
+    private float timer;
+
+    protected virtual void Start()
+    {
+        Debug.Log("A food magically appears somewhere");
+    }
+
+    protected virtual void Update()
+    {
+        timer += Time.deltaTime;
+
+        if (timer >= despawnTime)
+        {
+            PooManager.Instance.DespawnObject(gameObject);
+            timer = 0f;
+        }
+
+        //Destroy(gameObject, despawnTime);
+    }
+
+    protected virtual void Behavior()
+    {
+        Debug.Log("A fine addition to my camp bag");
+    }
+
+    public int GetBonusScore()
+    {
+        return bonusScore;
+    }
+
+    protected virtual void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            WRGameManager.Instance.AddScore(GetBonusScore());
+            //Destroy(gameObject);
+
+            PooManager.Instance.DespawnObject(gameObject);
+        }
+    }
+}

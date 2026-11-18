@@ -3,7 +3,7 @@ using UnityEngine.Timeline;
 using UnityEngine.Playables;
 using Unity.VisualScripting;
 
-public class CharController : MonoBehaviour
+public class CharaController : MonoBehaviour
 {
     //public GameObject cutscene2, prompt;
     public Animator playerAnime;
