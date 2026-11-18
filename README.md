@@ -17,7 +17,7 @@ Charleen Chu, 100784133
 
 **Project descriptuion:**
 
-Project is called Wild Ride, which is a spin on Frogger/Crossy Road, you forgot your picknik food, so you have to drive around and forage for food before going to your campsite... But becareful! This road belongs to 'The Wilds'.
+Project is called Wild Ride, which is a small side project made to test game engine labs and activities. This is spin on Frogger/Crossy Road, you forgot your picknik food, so you have to drive around and forage for food before going to your campsite... But becareful! This road belongs to 'The Wilds'.
 
 The controls are: 'WASD' to move, 'E' to check time elapsed, 'R' to restart
 
