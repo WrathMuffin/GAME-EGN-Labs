@@ -63,6 +63,18 @@ This project must be opened in editor to see the console message for elapsed tim
 
 I believed pooling definitely have to improve the performance, as it prevents constant instancing and destroying, thus lowers GC Allocations.
 
+**What Revealed:**
+
+Currently I'm ignoring Physics, Animation, and UI, as I don't think this will affect them/optimize them.
+
+It looks like GC Allocation improved a bit, as after selecting a random frame (2567) during the 2 minutes mark, it shows that SpawnDestroy has 30.0KB for GC Allocation, while Pooling has only 18.4KB. 
+
+Script is also slightly faster on Pooling than SpawnDestroy (though only for 0.01ms difference). CPU usage is also higher on Pooling than SpawnDestroy. 
+
+But other than that, Pooling is better in Total Used Memory (0.16 GB difference) and GC Used Memory (0.2 MB difference).
+
+I believe future improvements is to be replacing the old spawner system with pooling for the animals as well.
+
 -
 
 -
