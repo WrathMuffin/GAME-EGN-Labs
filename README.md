@@ -39,7 +39,7 @@ Pooling after around 1 minute:
 
 SpawnDestroy after around 2 minute:
 
-<img width="1148" height="666" alt="SpawnDestroy 2 min" src="https://github.com/user-attachments/assets/da821615-9fcc-44b5-aa30-ff0aa03a0574" />
+<img width="1137" height="663" alt="Pooling 2 min" src="https://github.com/user-attachments/assets/9e6d7846-b799-497d-9918-a541aa60622a" />
 
 -
 
