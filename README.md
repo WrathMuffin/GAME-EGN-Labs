@@ -1,10 +1,45 @@
 # GAME-EGN Labs
 For labs in Game Engine
 
+-
+
+-
 
 Charleen Chu, 100784133
 
+-
 
+-
+
+-
+
+**LAB 2**
+
+**Project descriptuion:**
+
+Project is called Wild Ride, which is a spin on Frogger/Crossy Road, you forgot your picknik food, so you have to drive around and forage for food before going to your campsite... But becareful! This road belongs to 'The Wilds'.
+
+The controls are: 'WASD' to move, 'E' to check time elapsed, 'R' to restart
+
+Currently there is no goal on how many food to collect, but the point is to collect enough and proceed to the end like how it is in Frogger/Crossy Road.
+
+**Implementation:**
+
+A factory pattern for the food instead of spawner (which is now used for the animals, but maybe I can replace it too), as well as pooling for the food. I also added SceneManager for scene handling like resets and display time elapsed, but in console right now though, I had no time for UI :(
+
+This project must be opened in editor to see the console message for elapsed time, as well as the current scores, and quotes.
+
+**What Improved:**
+
+I believed pooling definitely have to improve the performance, as it prevents constant instancing and destroying, thus lowers GC Allocations.
+
+-
+
+-
+
+-
+
+**LAB 1**
 
 **Project descriptuion:**
 
