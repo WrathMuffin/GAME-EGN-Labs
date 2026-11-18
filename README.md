@@ -23,6 +23,36 @@ The controls are: 'WASD' to move, 'E' to check time elapsed, 'R' to restart
 
 Currently there is no goal on how many food to collect, but the point is to collect enough and proceed to the end like how it is in Frogger/Crossy Road.
 
+**Screenshots:**
+
+SpawnDestroy after around 1 minute:
+
+<img width="1141" height="506" alt="SpawnDestroy 1 min" src="https://github.com/user-attachments/assets/955b064e-b9cc-4b30-9ef3-b7767195a179" />
+
+-
+
+Pooling after around 1 minute:
+
+<img width="1455" height="632" alt="Pooling 1 min" src="https://github.com/user-attachments/assets/27f2e69a-d327-488c-a6f2-ecfa9059ae8a" />
+
+-
+
+SpawnDestroy after around 2 minute:
+
+<img width="1148" height="666" alt="SpawnDestroy 2 min" src="https://github.com/user-attachments/assets/da821615-9fcc-44b5-aa30-ff0aa03a0574" />
+
+-
+
+Pooling after around 2 minute:
+
+<img width="1455" height="515" alt="Pooling 2 min" src="https://github.com/user-attachments/assets/49536d16-5b41-482c-b612-d61f0a4b01f6" />
+
+-
+
+-
+
+-
+
 **Implementation:**
 
 A factory pattern for the food instead of spawner (which is now used for the animals, but maybe I can replace it too), as well as pooling for the food. I also added SceneManager for scene handling like resets and display time elapsed, but in console right now though, I had no time for UI :(
